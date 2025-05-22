@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .pai {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .filho1 {
+        margin-right: 0;
+    }
+
+    .filho2 img {
+        display: none;
+    }
+
+    .botao {
+        position: static;
+        margin: 20px auto 0;
+        display: inline-block;
+    }
+}

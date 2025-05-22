@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jacquard+12+Charted&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruslan+Display&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Underdog&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+.titulo{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.company{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    padding-right: 10%;
+    background: white;
+    padding-left: 10%;
+    height: 90px;
+    
+    
+}
+
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.pai {
+    display: flex;
+     justify-content: space-between;
+     margin-top: 10%;
+     margin-right: 10%;
+     margin-left: 10%;
+     align-items: center;
+    
+    
+
+}
+
+.titulo2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+.filho1{
+    margin-right: 100px;
+    text-align: left;
+    
+    
+}
+
+img{
+    border-radius: 20px;
+}
+
+.botao{
+    display: inline-block;
+    padding: 20px;
+    background: black;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.botao:hover{
+    color: black;
+    background: orange;
+
+}
+
+
+.contato:hover{
+    color: orange;
+    font-weight: bold;
+
+}
+
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: black;
+    color: white;
+    margin-top: 200px;
+
+
+}
+
+
+
